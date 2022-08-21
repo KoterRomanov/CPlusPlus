@@ -37,8 +37,7 @@ struct MYSTRUCT__
 };
 #pragma pack()
 
-
-int main(int argc, char** argv)
+void Laboratory_pack()
 {
 	// MYSTRUCT 的内存占用
 	cout << "MYSTRUCT sizeof: " << sizeof(MYSTRUCT) << endl;
@@ -68,7 +67,12 @@ int main(int argc, char** argv)
 
 	cout << "MYSTRUCT_.member = " << myStruct_.member << endl;
 	cout << "MYSTRUCT_.a = " << myStruct_.a << endl;
+}
 
+int main(int argc, char** argv)
+{
+
+	Laboratory_pack();
 
 	system("pause");
 	return 0;
