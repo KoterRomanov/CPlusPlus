@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <iostream>
 
+#include "logic.hpp"
+
 using std::cout;
 using std::endl;
 
@@ -69,10 +71,36 @@ void Laboratory_pack()
 	cout << "MYSTRUCT_.a = " << myStruct_.a << endl;
 }
 
+void reference()
+{
+	// 引用普通变量
+	int dat = 100;
+	int &rf_dat = dat;
+
+
+	// 引用常量
+	const int dat_const = 100;
+	const int &rf_dat_const_a = dat_const; // 引用常量，引用和变量都是常量
+	const int& rf_dat_const = dat; // 引用之后引用是常量，不能通过引用改变变量值
+
+
+	// 引用字面常量
+
+
+	// 引用数组
+
+
+	// 指针引用
+}
+
+
+
 int main(int argc, char** argv)
 {
 
 	Laboratory_pack();
+
+	local_and_remote();
 
 	system("pause");
 	return 0;
