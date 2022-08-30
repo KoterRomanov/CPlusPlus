@@ -1,6 +1,6 @@
 #pragma once
 
-#include <stdio.h>
+#include "define.h"
 
 bool g_isLocal = true;
 bool g_isRemote = false;
