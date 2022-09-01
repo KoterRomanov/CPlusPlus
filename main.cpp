@@ -1,5 +1,6 @@
 #include "logic.hpp"
 #include "reference.hpp"
+#include "const.hpp"
 
 int main(int argc, char** argv)
 {
@@ -8,7 +9,9 @@ int main(int argc, char** argv)
 
 	//local_and_remote();
 
-	func_reference();
+	//func_reference();
+
+	func_const();
 
 	system("pause");
 	return 0;
