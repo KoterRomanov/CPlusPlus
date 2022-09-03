@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="const.hpp" />
+    <ClInclude Include="constcast.hpp" />
     <ClInclude Include="define.h" />
     <ClInclude Include="laboratory_pack.hpp" />
     <ClInclude Include="logic.hpp" />

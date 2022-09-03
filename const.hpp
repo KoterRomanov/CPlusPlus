@@ -69,6 +69,4 @@ void func_const()
 	RemoteAbstract obj_3;
 	((const RemoteAbstract&)obj_3).print(); // 通过创建临时常引用去调用常函数
 	((const RemoteAbstract*)&obj_3)->print();  // 通过创建临时常指针去调用常函数
-
-
 }
