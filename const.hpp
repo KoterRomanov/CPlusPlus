@@ -4,6 +4,26 @@
  * @author  koterromanov
  * @date    2022-08-23
  */
+
+class RemoteAbstract
+{
+public:
+
+	RemoteAbstract() { _data = 50; };
+	~RemoteAbstract() {};
+
+	void print() { printf("_data = %d\n", _data); };
+	void print() const { printf("const _data = %d\n", _data); }
+
+	void debug() { printf("_data = %d\n", _data); };
+
+private:
+
+	int _data;
+};
+
+
+
 void func_const()
 {
 
@@ -36,4 +56,19 @@ void func_const()
 	// 没有 const 修改的指针，可以改变指针的指向
 	int* pLocal = &tmpData;
 	pLocal = &tmpLocal;
+
+
+	// 常对象：只能调用 const 修饰的常函数
+	const RemoteAbstract obj;
+	RemoteAbstract const obj_2;
+	obj.print();
+	obj_2.print();
+	//obj.debug(); // 报错：只能调用常函数
+
+	// 普通对象指定调用常函数
+	RemoteAbstract obj_3;
+	((const RemoteAbstract&)obj_3).print(); // 通过创建临时常引用去调用常函数
+	((const RemoteAbstract*)&obj_3)->print();  // 通过创建临时常指针去调用常函数
+
+
 }
