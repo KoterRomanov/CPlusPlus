@@ -135,6 +135,7 @@
     <ClInclude Include="define.h" />
     <ClInclude Include="laboratory_pack.hpp" />
     <ClInclude Include="logic.hpp" />
+    <ClInclude Include="mutable.hpp" />
     <ClInclude Include="reference.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
