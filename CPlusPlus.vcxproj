@@ -137,6 +137,7 @@
     <ClInclude Include="logic.hpp" />
     <ClInclude Include="mutable.hpp" />
     <ClInclude Include="reference.hpp" />
+    <ClInclude Include="sizeof.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

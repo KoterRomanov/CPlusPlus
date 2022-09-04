@@ -3,6 +3,7 @@
 #include "const.hpp"
 #include "constcast.hpp"
 #include "mutable.hpp"
+#include "sizeof.hpp"
 
 int main(int argc, char** argv)
 {
@@ -17,7 +18,9 @@ int main(int argc, char** argv)
 
 	//func_const_cast();
 
-	func_mutable();
+	//func_mutable();
+
+	SIZEOF_NAMESPACE::func_sizeof();
 
 	system("pause");
 	return 0;
