@@ -4,6 +4,7 @@
 #include "constcast.hpp"
 #include "mutable.hpp"
 #include "sizeof.hpp"
+#include "volatile.hpp"
 
 int main(int argc, char** argv)
 {
@@ -20,7 +21,9 @@ int main(int argc, char** argv)
 
 	//func_mutable();
 
-	SIZEOF_NAMESPACE::func_sizeof();
+	//SIZEOF_NAMESPACE::func_sizeof();
+
+	func_volatile();
 
 	system("pause");
 	return 0;
