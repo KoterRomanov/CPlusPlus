@@ -5,6 +5,7 @@
 #include "mutable.hpp"
 #include "sizeof.hpp"
 #include "volatile.hpp"
+#include "typedef.hpp"
 
 int main(int argc, char** argv)
 {
@@ -23,7 +24,9 @@ int main(int argc, char** argv)
 
 	//SIZEOF_NAMESPACE::func_sizeof();
 
-	func_volatile();
+	//func_volatile();
+
+	func_typedef();
 
 	system("pause");
 	return 0;
