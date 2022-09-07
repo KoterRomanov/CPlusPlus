@@ -6,6 +6,7 @@
 #include "sizeof.hpp"
 #include "volatile.hpp"
 #include "typedef.hpp"
+#include "string.hpp"
 
 int main(int argc, char** argv)
 {

@@ -50,5 +50,8 @@
     <ClInclude Include="typedef.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="string.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
