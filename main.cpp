@@ -7,6 +7,7 @@
 #include "volatile.hpp"
 #include "typedef.hpp"
 #include "string.hpp"
+#include "linkoperate.hpp"
 
 int main(int argc, char** argv)
 {
@@ -29,7 +30,9 @@ int main(int argc, char** argv)
 
 	//func_typedef();
 
-	func_string();
+	//func_string();
+
+	func_link_operate();
 
 	system("pause");
 	return 0;
