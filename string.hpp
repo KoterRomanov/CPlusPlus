@@ -1,11 +1,15 @@
 #pragma once
 /**
- * @brief   对 C++ typedef 关键字的练习
+ * @brief   对 C++ 字符串类的练习
  * @author  koterromanov
- * @date    2022-09-07
+ * @date    2022-09-08
  */
 
 void func_string()
 {
+	string str("This is a test string");
+	cout << str << endl;
 
+	string copy_str(str);
+	cout << copy_str << endl;
 }

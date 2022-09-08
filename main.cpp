@@ -27,7 +27,9 @@ int main(int argc, char** argv)
 
 	//func_volatile();
 
-	func_typedef();
+	//func_typedef();
+
+	func_string();
 
 	system("pause");
 	return 0;
