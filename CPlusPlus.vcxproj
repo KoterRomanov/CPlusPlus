@@ -136,6 +136,7 @@
     <ClInclude Include="define.h" />
     <ClInclude Include="laboratory_pack.hpp" />
     <ClInclude Include="logic.hpp" />
+    <ClInclude Include="macro.hpp" />
     <ClInclude Include="mutable.hpp" />
     <ClInclude Include="linkoperate.hpp" />
     <ClInclude Include="namespace.hpp" />

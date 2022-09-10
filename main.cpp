@@ -10,6 +10,7 @@
 #include "linkoperate.hpp"
 #include "namespace.hpp"
 #include "namespace_1.hpp"
+#include "macro.hpp"
 
 int main(int argc, char** argv)
 {
@@ -47,6 +48,8 @@ int main(int argc, char** argv)
 	// 给名字空间起别名
 	namespace STEST = _TEST::_SUB_TEST;
 	STEST::function_sub_namespace();
+
+	function_macro();
 
 	system("pause");
 	return 0;

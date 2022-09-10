@@ -62,5 +62,8 @@
     <ClInclude Include="namespace_1.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="macro.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
