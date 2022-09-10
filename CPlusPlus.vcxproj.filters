@@ -56,5 +56,11 @@
     <ClInclude Include="linkoperate.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="namespace.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="namespace_1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

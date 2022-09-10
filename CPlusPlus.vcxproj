@@ -138,6 +138,8 @@
     <ClInclude Include="logic.hpp" />
     <ClInclude Include="mutable.hpp" />
     <ClInclude Include="linkoperate.hpp" />
+    <ClInclude Include="namespace.hpp" />
+    <ClInclude Include="namespace_1.hpp" />
     <ClInclude Include="reference.hpp" />
     <ClInclude Include="sizeof.hpp" />
     <ClInclude Include="string.hpp" />
