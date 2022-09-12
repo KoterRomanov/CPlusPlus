@@ -11,6 +11,7 @@
 #include "namespace.hpp"
 #include "namespace_1.hpp"
 #include "macro.hpp"
+#include "explicit.hpp"
 
 int main(int argc, char** argv)
 {
@@ -50,6 +51,8 @@ int main(int argc, char** argv)
 	STEST::function_sub_namespace();
 
 	function_macro();
+
+	_EXPLICIT::function_explicit();
 
 	system("pause");
 	return 0;
