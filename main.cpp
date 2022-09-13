@@ -38,19 +38,19 @@ int main(int argc, char** argv)
 
 	//func_link_operate();
 
-	_TEST::g_local = 100;
-	_TEST::g_remote = 200.00;
-	_TEST::function_namespacec();
-	_TEST::function_namespace_1();
+	//_TEST::g_local = 100;
+	//_TEST::g_remote = 200.00;
+	//_TEST::function_namespacec();
+	//_TEST::function_namespace_1();
 
 	// 调用名字空间的子空间的函数
-	_TEST::_SUB_TEST::function_sub_namespace();
+	//_TEST::_SUB_TEST::function_sub_namespace();
 
 	// 给名字空间起别名
-	namespace STEST = _TEST::_SUB_TEST;
-	STEST::function_sub_namespace();
+	//namespace STEST = _TEST::_SUB_TEST;
+	//STEST::function_sub_namespace();
 
-	function_macro();
+	//function_macro();
 
 	_EXPLICIT::function_explicit();
 
