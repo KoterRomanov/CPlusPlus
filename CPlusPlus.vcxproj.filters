@@ -16,6 +16,9 @@
     <Filter Include="头文件\basic">
       <UniqueIdentifier>{a08ffdfc-119a-4623-8b6b-79fec321f082}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\dataType">
+      <UniqueIdentifier>{bc2e6308-3a49-48ad-be3b-8394d8cfff65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -70,6 +73,9 @@
     </ClInclude>
     <ClInclude Include="typedef.hpp">
       <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="datatype.hpp">
+      <Filter>头文件\dataType</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClInclude Include="const.hpp" />
     <ClInclude Include="constcast.hpp" />
+    <ClInclude Include="datatype.hpp" />
     <ClInclude Include="define.h" />
     <ClInclude Include="explicit.hpp" />
     <ClInclude Include="laboratory_pack.hpp" />
