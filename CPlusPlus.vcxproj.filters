@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\basic">
+      <UniqueIdentifier>{a08ffdfc-119a-4623-8b6b-79fec321f082}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,53 +23,53 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="logic.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="reference.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="define.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="laboratory_pack.hpp">
-      <Filter>头文件</Filter>
+    <ClInclude Include="volatile.hpp">
+      <Filter>头文件\basic</Filter>
     </ClInclude>
     <ClInclude Include="const.hpp">
-      <Filter>头文件</Filter>
+      <Filter>头文件\basic</Filter>
     </ClInclude>
     <ClInclude Include="constcast.hpp">
-      <Filter>头文件</Filter>
+      <Filter>头文件\basic</Filter>
     </ClInclude>
-    <ClInclude Include="mutable.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="sizeof.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="volatile.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="typedef.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="string.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="linkoperate.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="namespace.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="namespace_1.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="macro.hpp">
-      <Filter>头文件</Filter>
+    <ClInclude Include="define.h">
+      <Filter>头文件\basic</Filter>
     </ClInclude>
     <ClInclude Include="explicit.hpp">
-      <Filter>头文件</Filter>
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="laboratory_pack.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="linkoperate.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="mutable.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="namespace.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="namespace_1.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="reference.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="sizeof.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="string.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.hpp">
+      <Filter>头文件\basic</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
