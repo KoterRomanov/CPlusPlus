@@ -12,6 +12,7 @@
 #include "namespace_1.hpp"
 #include "macro.hpp"
 #include "explicit.hpp"
+#include "datatype.hpp"
 
 int main(int argc, char** argv)
 {
@@ -52,7 +53,9 @@ int main(int argc, char** argv)
 
 	//function_macro();
 
-	_EXPLICIT::function_explicit();
+	//_EXPLICIT::function_explicit();
+
+	function_datatype();
 
 	system("pause");
 	return 0;
