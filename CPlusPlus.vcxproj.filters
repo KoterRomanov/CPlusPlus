@@ -77,5 +77,8 @@
     <ClInclude Include="datatype.hpp">
       <Filter>头文件\dataType</Filter>
     </ClInclude>
+    <ClInclude Include="voidtype.hpp">
+      <Filter>头文件\dataType</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

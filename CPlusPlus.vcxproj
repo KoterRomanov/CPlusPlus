@@ -147,6 +147,7 @@
     <ClInclude Include="sizeof.hpp" />
     <ClInclude Include="string.hpp" />
     <ClInclude Include="typedef.hpp" />
+    <ClInclude Include="voidtype.hpp" />
     <ClInclude Include="volatile.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
