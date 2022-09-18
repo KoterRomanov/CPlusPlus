@@ -135,6 +135,7 @@
     <ClInclude Include="constcast.hpp" />
     <ClInclude Include="datatype.hpp" />
     <ClInclude Include="define.h" />
+    <ClInclude Include="enumtype.hpp" />
     <ClInclude Include="explicit.hpp" />
     <ClInclude Include="laboratory_pack.hpp" />
     <ClInclude Include="logic.hpp" />

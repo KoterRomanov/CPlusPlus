@@ -13,9 +13,11 @@
 #include "macro.hpp"
 #include "explicit.hpp"
 #include "datatype.hpp"
+#include "enumtype.hpp"
 
 int main(int argc, char** argv)
 {
+	function_enum();
 
 	//Laboratory_pack();
 
@@ -55,7 +57,7 @@ int main(int argc, char** argv)
 
 	//_EXPLICIT::function_explicit();
 
-	function_datatype();
+	//function_datatype();
 
 	system("pause");
 	return 0;
