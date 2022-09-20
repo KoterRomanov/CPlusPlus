@@ -14,10 +14,13 @@
 #include "explicit.hpp"
 #include "datatype.hpp"
 #include "enumtype.hpp"
+#include "structtype.hpp"
 
 int main(int argc, char** argv)
 {
-	function_enum();
+	function_struct();
+
+	//function_enum();
 
 	//Laboratory_pack();
 
