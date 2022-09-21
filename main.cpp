@@ -18,6 +18,7 @@
 
 int main(int argc, char** argv)
 {
+	/* Á·Ï°½á¹¹Ìå */
 	function_struct();
 
 	//function_enum();
