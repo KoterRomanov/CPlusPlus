@@ -30,6 +30,22 @@ struct {
 	int _member;
 }my_data_4;
 
+/* 学生信息 */
+typedef struct Student_ {
+
+	char* st_name; /* 学生姓名 */
+
+	int st_id;	/* 学生学号 */
+
+	int st_grade; /* 学生年级 */
+
+	int st_class; /* 学生班级 */
+
+	int st_age;	/* 学生年龄 */
+
+	char* st_home_address; /* 学生家庭住址 */
+
+}Student;
 
 void function_struct()
 {
@@ -54,4 +70,14 @@ void function_struct()
 	/* 方式4：声明（使用） */
 	my_data_4._member = 100;
 	cout << my_data_4._member << endl;
+
+
+	/* 结构体使用之前一定要初始化 */
+	Student Tom;
+	Tom.st_name = (char*)malloc(sizeof("Tom")+1);
+	strcpy_s(Tom.st_name, sizeof("Tom"), "Tom");
+	Tom.st_id = 100;
+
+	cout << Tom.st_name << endl;
+	cout << Tom.st_id << endl;
 }
