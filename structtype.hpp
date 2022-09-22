@@ -80,4 +80,8 @@ void function_struct()
 
 	cout << Tom.st_name << endl;
 	cout << Tom.st_id << endl;
+
+	Student Jim = { 0 };
+	cout << Jim.st_name << endl;
+	cout << Jim.st_id << endl;
 }
