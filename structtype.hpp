@@ -1,8 +1,8 @@
 #pragma once
 /**
- * @brief   对 C++ 枚举的练习
+ * @brief   对 C++ 结构体的练习
  * @author  koterromanov
- * @date    2022-09-19
+ * @date    2022-09-22
  */
 #include "define.h"
 

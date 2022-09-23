@@ -149,6 +149,7 @@
     <ClInclude Include="string.hpp" />
     <ClInclude Include="structtype.hpp" />
     <ClInclude Include="typedef.hpp" />
+    <ClInclude Include="uniontype.hpp" />
     <ClInclude Include="voidtype.hpp" />
     <ClInclude Include="volatile.hpp" />
   </ItemGroup>

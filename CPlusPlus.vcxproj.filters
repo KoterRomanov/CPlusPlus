@@ -86,5 +86,8 @@
     <ClInclude Include="structtype.hpp">
       <Filter>头文件\dataType</Filter>
     </ClInclude>
+    <ClInclude Include="uniontype.hpp">
+      <Filter>头文件\dataType</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
