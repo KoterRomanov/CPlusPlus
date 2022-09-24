@@ -15,11 +15,15 @@
 #include "datatype.hpp"
 #include "enumtype.hpp"
 #include "structtype.hpp"
+#include "uniontype.hpp"
 
 int main(int argc, char** argv)
 {
+	/* 练习联合体 */
+	function_union();
+
 	/* 练习结构体 */
-	function_struct();
+	//function_struct();
 
 	//function_enum();
 
