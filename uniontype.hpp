@@ -45,5 +45,6 @@ void function_union()
 
 	/* 联合体初始化: 初始化第一个成员 */
 	un dd = { 100 };
+	cout << dd.a << endl;
 
 }
