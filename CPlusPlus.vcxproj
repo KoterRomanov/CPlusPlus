@@ -71,6 +71,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)basic;$(SolutionDir)datatype;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -131,27 +134,27 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="const.hpp" />
-    <ClInclude Include="constcast.hpp" />
-    <ClInclude Include="datatype.hpp" />
-    <ClInclude Include="define.h" />
-    <ClInclude Include="enumtype.hpp" />
-    <ClInclude Include="explicit.hpp" />
-    <ClInclude Include="laboratory_pack.hpp" />
-    <ClInclude Include="logic.hpp" />
-    <ClInclude Include="macro.hpp" />
-    <ClInclude Include="mutable.hpp" />
-    <ClInclude Include="linkoperate.hpp" />
-    <ClInclude Include="namespace.hpp" />
-    <ClInclude Include="namespace_1.hpp" />
-    <ClInclude Include="reference.hpp" />
-    <ClInclude Include="sizeof.hpp" />
-    <ClInclude Include="string.hpp" />
-    <ClInclude Include="structtype.hpp" />
-    <ClInclude Include="typedef.hpp" />
-    <ClInclude Include="uniontype.hpp" />
-    <ClInclude Include="voidtype.hpp" />
-    <ClInclude Include="volatile.hpp" />
+    <ClInclude Include="basic\const.hpp" />
+    <ClInclude Include="basic\constcast.hpp" />
+    <ClInclude Include="basic\define.h" />
+    <ClInclude Include="basic\explicit.hpp" />
+    <ClInclude Include="basic\laboratory_pack.hpp" />
+    <ClInclude Include="basic\linkoperate.hpp" />
+    <ClInclude Include="basic\logic.hpp" />
+    <ClInclude Include="basic\macro.hpp" />
+    <ClInclude Include="basic\mutable.hpp" />
+    <ClInclude Include="basic\namespace.hpp" />
+    <ClInclude Include="basic\namespace_1.hpp" />
+    <ClInclude Include="basic\reference.hpp" />
+    <ClInclude Include="basic\sizeof.hpp" />
+    <ClInclude Include="basic\string.hpp" />
+    <ClInclude Include="basic\typedef.hpp" />
+    <ClInclude Include="basic\volatile.hpp" />
+    <ClInclude Include="datatype\datatype.hpp" />
+    <ClInclude Include="datatype\enumtype.hpp" />
+    <ClInclude Include="datatype\structtype.hpp" />
+    <ClInclude Include="datatype\uniontype.hpp" />
+    <ClInclude Include="datatype\voidtype.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

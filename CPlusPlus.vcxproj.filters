@@ -26,68 +26,68 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="volatile.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="const.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="constcast.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="define.h">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="explicit.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="laboratory_pack.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="linkoperate.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="logic.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="macro.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="mutable.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="namespace.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="namespace_1.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="reference.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="sizeof.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="string.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="typedef.hpp">
-      <Filter>头文件\basic</Filter>
-    </ClInclude>
-    <ClInclude Include="datatype.hpp">
+    <ClInclude Include="datatype\datatype.hpp">
       <Filter>头文件\dataType</Filter>
     </ClInclude>
-    <ClInclude Include="voidtype.hpp">
+    <ClInclude Include="datatype\enumtype.hpp">
       <Filter>头文件\dataType</Filter>
     </ClInclude>
-    <ClInclude Include="enumtype.hpp">
+    <ClInclude Include="datatype\structtype.hpp">
       <Filter>头文件\dataType</Filter>
     </ClInclude>
-    <ClInclude Include="structtype.hpp">
+    <ClInclude Include="datatype\uniontype.hpp">
       <Filter>头文件\dataType</Filter>
     </ClInclude>
-    <ClInclude Include="uniontype.hpp">
+    <ClInclude Include="datatype\voidtype.hpp">
       <Filter>头文件\dataType</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\const.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\constcast.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\define.h">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\explicit.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\laboratory_pack.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\linkoperate.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\logic.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\macro.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\mutable.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\namespace.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\namespace_1.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\reference.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\sizeof.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\string.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\typedef.hpp">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\volatile.hpp">
+      <Filter>头文件\basic</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
