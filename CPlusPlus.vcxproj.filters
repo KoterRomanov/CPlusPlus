@@ -89,7 +89,7 @@
     <ClInclude Include="basic\volatile.hpp">
       <Filter>头文件\basic</Filter>
     </ClInclude>
-    <ClInclude Include="typeconver.hpp">
+    <ClInclude Include="datatype\typeconver.hpp">
       <Filter>头文件\dataType</Filter>
     </ClInclude>
   </ItemGroup>

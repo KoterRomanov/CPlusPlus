@@ -153,10 +153,10 @@
     <ClInclude Include="basic\string.hpp" />
     <ClInclude Include="basic\typedef.hpp" />
     <ClInclude Include="basic\volatile.hpp" />
-    <ClInclude Include="typeconver.hpp" />
     <ClInclude Include="datatype\datatype.hpp" />
     <ClInclude Include="datatype\enumtype.hpp" />
     <ClInclude Include="datatype\structtype.hpp" />
+    <ClInclude Include="datatype\typeconver.hpp" />
     <ClInclude Include="datatype\uniontype.hpp" />
     <ClInclude Include="datatype\voidtype.hpp" />
   </ItemGroup>
