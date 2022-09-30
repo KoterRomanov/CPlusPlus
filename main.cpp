@@ -16,11 +16,15 @@
 #include "enumtype.hpp"
 #include "structtype.hpp"
 #include "uniontype.hpp"
+#include "typeconver.hpp"
 
 int main(int argc, char** argv)
 {
+	/* 练习数据类型转换 */
+	function_type_convert();
+
 	/* 练习联合体 */
-	function_union();
+	//function_union();
 
 	/* 练习结构体 */
 	//function_struct();
