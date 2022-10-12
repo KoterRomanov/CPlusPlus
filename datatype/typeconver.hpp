@@ -33,6 +33,7 @@ void function_type_convert()
 	/* static_cast 用于存在继承关系的类类型之间的转换 */
 	Widget* item = new Button();
 	Button* item_button = static_cast<Button*>(item);
+	Widget* item_widget = static_cast<Button*>(item_button);
 
 	/* dynamic_cast */
 
