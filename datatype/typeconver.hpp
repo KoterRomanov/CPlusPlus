@@ -5,6 +5,20 @@
  * @date    2022-09-15
  */
 
+class Widget
+{
+public:
+	Widget() {}
+	~Widget() {}
+}
+
+class Button : public Widget
+{
+public:
+	Button() {}
+	~Button() {}
+}
+
 
 void function_type_convert()
 {
@@ -17,6 +31,8 @@ void function_type_convert()
 	unsigned char ch_type = static_cast<unsigned char>(type);
 
 	/* static_cast 用于存在继承关系的类类型之间的转换 */
+	Widget* item = new Button();
+	Button* item_button = static_cast<Button*>(item);
 
 	/* dynamic_cast */
 
