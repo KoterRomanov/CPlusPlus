@@ -30,20 +30,22 @@ void function_type_convert()
 	int type = 100;
 	unsigned char ch_type = static_cast<unsigned char>(type);
 
-	/* static_cast 用于存在继承关系的类类型之间的转换 */
+	/* static_cast 用于存在继承关系的类类型之间的转换，非继承关系的类类型之间转换编译期会报错 */
 	Widget* item = new Button();
 	Button* item_button = static_cast<Button*>(item);
 	Widget* item_widget = static_cast<Button*>(item_button);
 
-	/* 下行转换，不安全（没有动态类型转换） */
+	/* 下行转换，不安全（没有动态类型转换），转换失败时， item_button_d 不为空 */
 	Widget d;
 	Button* item_button_d = static_cast<Button*>(&d);
 
 	/* 上行转换，安全 */
-	Button b;
+	Button b;s
 	Widget* item_widget_b = static_cast<Widget*>(&b);
 
-	/* dynamic_cast */
+	/* dynamic_cast 用于类类型转换，非继承关系的类型之间转换编译期不会报错， 转换会失败，转换结果会为空指针 */
+	Button* item_button_d_dy = dynamic_cast<Button*>(&d); /* 下行转化，安全，转换失败item_button_d_dy 为空 */
+	Widget* item_widget_b_dy = dynamic_cast<Widget*>(&b); /* 上行转换，安全，效果与 static_cast 一样 */
 
 	/* reinterpret_cast */
 }
