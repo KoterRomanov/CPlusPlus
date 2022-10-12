@@ -35,6 +35,14 @@ void function_type_convert()
 	Button* item_button = static_cast<Button*>(item);
 	Widget* item_widget = static_cast<Button*>(item_button);
 
+	/* 下行转换，不安全（没有动态类型转换） */
+	Widget d;
+	Button* item_button_d = static_cast<Button*>(&d);
+
+	/* 上行转换，安全 */
+	Button b;
+	Widget* item_widget_b = static_cast<Widget*>(&b);
+
 	/* dynamic_cast */
 
 	/* reinterpret_cast */
