@@ -48,4 +48,5 @@ void function_type_convert()
 	Widget* item_widget_b_dy = dynamic_cast<Widget*>(&b); /* 上行转换，安全，效果与 static_cast 一样 */
 
 	/* reinterpret_cast */
+	Button* item_button_d_rp = reinterpret_cast<Button*>(&d); /* 不推荐使用， 保证转换合理情况下，其他转换都不能使用的情况下可以使用 */
 }
