@@ -23,6 +23,41 @@ public:
 };
 
 
+class DataBox
+{
+public:
+	DataBox(int i):m_i(i), m_f(i), m_d(i) {}
+	DataBox(float f) :m_i(f), m_f(f), m_d(f) {}
+	DataBox(double d) :m_i(d), m_f(d), m_d(d) {}
+
+	operator int() { 
+		
+		printf("DataBox convert to int\n");
+		return m_i;
+	}
+
+	operator float() { 
+		
+		printf("DataBox convert to float\n");
+		return m_f;
+	}
+
+	operator double() { 
+		
+		printf("DataBox convert to double\n");
+		return m_d;
+	}
+
+private:
+
+	int m_i;
+
+	float m_f;
+
+	double m_d;
+};
+
+
 void function_type_convert()
 {
 	/* const_cast 解除常指针 & 常引用的 const 属性 */
@@ -53,4 +88,10 @@ void function_type_convert()
 	/* reinterpret_cast */
 	/* int (*)() 和 void (*)() 函数指针的转换必须使用 reinterpret_cast 才能成功 */
 	Button* item_button_d_rp = reinterpret_cast<Button*>(&d); /* 不推荐使用， 保证转换合理情况下，其他转换都不能使用的情况下可以使用 */
+
+
+	/* 基础数据类型 - 类类型之间的转换 */
+	DataBox db = 100;
+	int db_data = db; /* 隐式转换 */
+	/* int db_data = (int)db 显示转换 */
 }
