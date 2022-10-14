@@ -10,14 +10,17 @@ class Widget
 public:
 	Widget() {}
 	~Widget() {}
-}
+
+	/* 下行转换时，父类必须包含有虚函数（本质是虚函数表） */
+	virtual void function() {}
+};
 
 class Button : public Widget
 {
 public:
 	Button() {}
 	~Button() {}
-}
+};
 
 
 void function_type_convert()
@@ -40,7 +43,7 @@ void function_type_convert()
 	Button* item_button_d = static_cast<Button*>(&d);
 
 	/* 上行转换，安全 */
-	Button b;s
+	Button b;
 	Widget* item_widget_b = static_cast<Widget*>(&b);
 
 	/* dynamic_cast 用于类类型转换，非继承关系的类型之间转换编译期不会报错， 转换会失败，转换结果会为空指针 */
