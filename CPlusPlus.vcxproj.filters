@@ -92,5 +92,8 @@
     <ClInclude Include="datatype\typeconver.hpp">
       <Filter>头文件\dataType</Filter>
     </ClInclude>
+    <ClInclude Include="datatype\declare.hpp">
+      <Filter>头文件\dataType</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

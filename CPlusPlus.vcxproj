@@ -154,6 +154,7 @@
     <ClInclude Include="basic\typedef.hpp" />
     <ClInclude Include="basic\volatile.hpp" />
     <ClInclude Include="datatype\datatype.hpp" />
+    <ClInclude Include="datatype\declare.hpp" />
     <ClInclude Include="datatype\enumtype.hpp" />
     <ClInclude Include="datatype\structtype.hpp" />
     <ClInclude Include="datatype\typeconver.hpp" />
