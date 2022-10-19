@@ -20,6 +20,12 @@
 
 int main(int argc, char** argv)
 {
+
+	int index = 0;
+	while (argv[index]) {
+
+		printf("argv: %s\n", argv[index++]);
+	}
 	/* 练习数据类型转换 */
 	function_type_convert();
 
