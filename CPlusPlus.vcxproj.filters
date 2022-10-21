@@ -19,6 +19,9 @@
     <Filter Include="头文件\dataType">
       <UniqueIdentifier>{bc2e6308-3a49-48ad-be3b-8394d8cfff65}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\function">
+      <UniqueIdentifier>{3237be6f-2ccb-4974-8115-7aeaa20424b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -94,6 +97,12 @@
     </ClInclude>
     <ClInclude Include="datatype\declare.hpp">
       <Filter>头文件\dataType</Filter>
+    </ClInclude>
+    <ClInclude Include="callmethod.hpp">
+      <Filter>头文件\dataType</Filter>
+    </ClInclude>
+    <ClInclude Include="function\callmethod.hpp">
+      <Filter>头文件\function</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

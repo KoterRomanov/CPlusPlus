@@ -153,6 +153,7 @@
     <ClInclude Include="basic\string.hpp" />
     <ClInclude Include="basic\typedef.hpp" />
     <ClInclude Include="basic\volatile.hpp" />
+    <ClInclude Include="callmethod.hpp" />
     <ClInclude Include="datatype\datatype.hpp" />
     <ClInclude Include="datatype\declare.hpp" />
     <ClInclude Include="datatype\enumtype.hpp" />
@@ -160,6 +161,7 @@
     <ClInclude Include="datatype\typeconver.hpp" />
     <ClInclude Include="datatype\uniontype.hpp" />
     <ClInclude Include="datatype\voidtype.hpp" />
+    <ClInclude Include="function\callmethod.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
