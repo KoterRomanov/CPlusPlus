@@ -17,17 +17,18 @@
 #include "structtype.hpp"
 #include "uniontype.hpp"
 #include "typeconver.hpp"
+#include "callmethod.hpp"
 
 int main(int argc, char** argv)
 {
+	function_call();
+	//int index = 0;
+	//while (argv[index]) {
 
-	int index = 0;
-	while (argv[index]) {
-
-		printf("argv: %s\n", argv[index++]);
-	}
-	/* 练习数据类型转换 */
-	function_type_convert();
+	//	printf("argv: %s\n", argv[index++]);
+	//}
+	///* 练习数据类型转换 */
+	//function_type_convert();
 
 	/* 练习联合体 */
 	//function_union();

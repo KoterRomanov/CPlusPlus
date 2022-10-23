@@ -15,7 +15,7 @@ void __cdecl test_cdecl(int a, int b)
 }
 
 /* _fastcall通常规定将前两个（或若干个）参数由寄存器传递, 速度比堆栈传递速度快 */
-void __fastcall test_fatst(int a, int b)
+void __fastcall test_fast(int a, int b)
 {
 
 }
@@ -30,4 +30,7 @@ void __thiscall CLASS::test_this(int a, int b)
 
 void function_call()
 {
+    test_stdcall(1, 2);
+    test_cdecl(1, 2);
+    test_fast(1, 2);
 }
