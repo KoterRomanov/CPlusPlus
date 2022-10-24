@@ -21,6 +21,7 @@
 
 int main(int argc, char** argv)
 {
+	/* c、c++ 调用约定练习 */
 	function_call();
 	//int index = 0;
 	//while (argv[index]) {
