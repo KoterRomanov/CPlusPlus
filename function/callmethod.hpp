@@ -1,6 +1,6 @@
 #pragma once
 
-#include <iostream>
+#include "define.h"
 
 /* c/c++ 标准函数调用约定 */
 void __stdcall test_stdcall(int a, int b)
@@ -21,12 +21,7 @@ void __fastcall test_fast(int a, int b)
 }
 
 /* thiscall 仅用于c++成员函数中 */
-/*
-void __thiscall CLASS::test_this(int a, int b)
-{
-    
-}
-*/
+
 
 void function_call()
 {
