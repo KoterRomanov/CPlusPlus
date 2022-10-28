@@ -36,9 +36,9 @@ void function_call()
     /* 结果传入：1, 1*/
     //test_stdcall(local++, ++local);
 
-    /* 结果传入：0，0 */
+    /* 结果传入：0，0 */ /* 后置加运算是先压栈，后计算 */
     //test_stdcall(local++, local++);
 
-    /* 结果传入：2，2 */
-    //test_stdcall(++local, ++local);
+    /* 结果传入：2，2 */ /* 前置加运算是先运算，后压栈 */
+    test_stdcall(++local, ++local);
 }
