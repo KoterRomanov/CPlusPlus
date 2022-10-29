@@ -104,5 +104,8 @@
     <ClInclude Include="function\callmethod.hpp">
       <Filter>头文件\function</Filter>
     </ClInclude>
+    <ClInclude Include="function\defaultarguments.hpp">
+      <Filter>头文件\function</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

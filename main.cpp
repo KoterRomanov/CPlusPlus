@@ -18,11 +18,15 @@
 #include "uniontype.hpp"
 #include "typeconver.hpp"
 #include "callmethod.hpp"
+#include "function/defaultarguments.hpp"
 
 int main(int argc, char** argv)
 {
+	/* 函数调用默认参数练习 */
+	function_default_arguments();
+
 	/* c、c++ 调用约定练习 */
-	function_call();
+	//function_call();
 	//int index = 0;
 	//while (argv[index]) {
 
