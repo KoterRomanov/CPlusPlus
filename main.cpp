@@ -18,12 +18,16 @@
 #include "uniontype.hpp"
 #include "typeconver.hpp"
 #include "callmethod.hpp"
-#include "function/defaultarguments.hpp"
+#include "defaultarguments.hpp"
+#include "vafunction.hpp"
 
 int main(int argc, char** argv)
 {
+	/* 可变参数函数 */
+	function_va();
+
 	/* 函数调用默认参数练习 */
-	function_default_arguments();
+	//function_default_arguments();
 
 	/* c、c++ 调用约定练习 */
 	//function_call();
