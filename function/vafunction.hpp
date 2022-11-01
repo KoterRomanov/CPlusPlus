@@ -5,9 +5,6 @@
 
 /*
  * 1. 可变参数函数至少带一个固定参数, 然后才是可变参数
- * 2. 
- *
- *
  *
  */
 
@@ -53,7 +50,11 @@ void func_va_char(char s, ...)
 	char val = '\0';
 	while (val != '\0') {
 
+		val = va_arg(arguments, char);
+		printf("The val: %s\n", val);
 	}
+
+	va_end(arguments);
 }
 
 void function_va()
