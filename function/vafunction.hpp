@@ -44,14 +44,15 @@ void func_va_macro(int a, ...) {
 void func_va_char(char s, ...)
 {
 	va_list arguments;
+	va_start(arguments, s);
 
-	va_start(arguments, a);
+	printf("The val: %c\n", s);
 
-	char val = '\0';
+	char val = s;
 	while (val != '\0') {
 
 		val = va_arg(arguments, char);
-		printf("The val: %s\n", val);
+		printf("The val: %c\n", val);
 	}
 
 	va_end(arguments);
@@ -64,4 +65,7 @@ void function_va()
 
 	printf("call func_va_macro\n");
 	func_va_macro(1, 2, 3, 4, 0);
+
+	printf("call func_va_char\n");
+	func_va_char('A', 'B', 'C', 'D', '\0');
 }
