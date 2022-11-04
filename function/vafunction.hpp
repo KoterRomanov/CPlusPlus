@@ -58,6 +58,22 @@ void func_va_char(char s, ...)
 	va_end(arguments);
 }
 
+void func_va_double(double d, ...)
+{
+	va_list arguments;
+	va_start(arguments, d);
+
+	double val = d;
+	printf("The val: %f\n", val);
+	while (val >= 1.00) {
+
+		val = va_arg(arguments, double);
+		printf("The val: %f\n", val);
+	}
+
+	va_end(arguments);
+}
+
 void function_va()
 {
 	printf("call func_va_ex\n");
@@ -68,4 +84,6 @@ void function_va()
 
 	printf("call func_va_char\n");
 	func_va_char('A', 'B', 'C', 'D', '\0');
+
+	func_va_double(1.00, 2.00, 3.00, 4.00, 0);
 }
