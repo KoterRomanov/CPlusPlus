@@ -85,5 +85,6 @@ void function_va()
 	printf("call func_va_char\n");
 	func_va_char('A', 'B', 'C', 'D', '\0');
 
+	printf("call func_va_double\n");
 	func_va_double(1.00, 2.00, 3.00, 4.00, 0);
 }
