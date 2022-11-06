@@ -20,11 +20,15 @@
 #include "callmethod.hpp"
 #include "defaultarguments.hpp"
 #include "vafunction.hpp"
+#include "function/functionpointer.hpp"
 
 int main(int argc, char** argv)
 {
+	/* 函数指针 */
+	function_pointer();
+
 	/* 可变参数函数 */
-	function_va();
+	//function_va();
 
 	/* 函数调用默认参数练习 */
 	//function_default_arguments();

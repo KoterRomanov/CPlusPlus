@@ -110,5 +110,8 @@
     <ClInclude Include="function\vafunction.hpp">
       <Filter>头文件\function</Filter>
     </ClInclude>
+    <ClInclude Include="function\functionpointer.hpp">
+      <Filter>头文件\function</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
