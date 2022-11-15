@@ -21,6 +21,7 @@ void function_pointer()
 
 	/* 方式二：函数指针定义 + 赋值 */
 	int (*pMyPrintf_)(const char*, ...) = printf;
+	pMyPrintf_("The test printf: %s\n", "hello printf");
 
 	/* 方式三：使用别名定义函数指针变量 */
 	printfType pFunc = printf;
