@@ -14,6 +14,18 @@ int (*pMyPrintf)(const char* fmt, ...);
 /* 声明函数指针类型别名 */
 typedef int(*printfType)(const char*, ...);
 
+int f() {
+	return 1;
+}
+
+void invoke1(int (*func)()) {
+	printf("%d\n", (*func)());
+}
+
+void invoke2(int func()) {
+	printf("%d\n", func());
+}
+
 void function_pointer()
 {
 	/* 方式一：函数指针变量赋值 */
@@ -31,6 +43,9 @@ void function_pointer()
 	/* 方式四：取地址方式赋值函数地址（与方式三等价） */
 	pFunc = &printf;
 	pFunc("The test pointer of function useage &\n");
+
+	invoke1(f);
+	invoke2(f);
 
 	return;
 }
