@@ -18,12 +18,26 @@ int f() {
 	return 1;
 }
 
+int f(int a, int b) {
+	return 20;
+}
+
 void invoke1(int (*func)()) {
 	printf("%d\n", (*func)());
 }
 
 void invoke2(int func()) {
 	printf("%d\n", func());
+}
+
+void invoke3(int (*p)(int a, int b), int a, int b)
+{
+	(*p)(a, b);
+}
+
+void invoke4(int p(int a, int b), int a, int b)
+{
+	p(a, b);
 }
 
 void function_pointer()
@@ -46,6 +60,9 @@ void function_pointer()
 
 	invoke1(f);
 	invoke2(f);
+
+	invoke3(f, 100, 100);
+	invoke4(f, 100, 100);
 
 	return;
 }
