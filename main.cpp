@@ -21,6 +21,7 @@
 #include "defaultarguments.hpp"
 #include "vafunction.hpp"
 #include "function/functionpointer.hpp"
+#include "link.hpp"
 
 int main(int argc, char** argv)
 {

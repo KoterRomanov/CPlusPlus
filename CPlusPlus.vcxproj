@@ -136,6 +136,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="function\link.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +167,8 @@
     <ClInclude Include="function\callmethod.hpp" />
     <ClInclude Include="function\defaultarguments.hpp" />
     <ClInclude Include="function\functionpointer.hpp" />
+    <ClInclude Include="function\link.h" />
+    <ClInclude Include="function\link.hpp" />
     <ClInclude Include="function\vafunction.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
