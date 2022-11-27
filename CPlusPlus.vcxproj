@@ -157,6 +157,7 @@
     <ClInclude Include="basic\typedef.hpp" />
     <ClInclude Include="basic\volatile.hpp" />
     <ClInclude Include="callmethod.hpp" />
+    <ClInclude Include="class\class.hpp" />
     <ClInclude Include="datatype\datatype.hpp" />
     <ClInclude Include="datatype\declare.hpp" />
     <ClInclude Include="datatype\enumtype.hpp" />

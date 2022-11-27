@@ -22,11 +22,15 @@
 #include "vafunction.hpp"
 #include "function/functionpointer.hpp"
 #include "link.hpp"
+#include "class/class.hpp"
 
 int main(int argc, char** argv)
 {
+	/* C++ 成员列表初始化 */
+	function_class();
+
 	/* 函数指针 */
-	function_pointer();
+	//function_pointer();
 
 	/* 可变参数函数 */
 	//function_va();

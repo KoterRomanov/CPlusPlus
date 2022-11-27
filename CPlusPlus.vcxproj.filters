@@ -22,6 +22,9 @@
     <Filter Include="头文件\function">
       <UniqueIdentifier>{3237be6f-2ccb-4974-8115-7aeaa20424b5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\class">
+      <UniqueIdentifier>{b199dbd9-edf0-483b-bd89-b7b837ff5479}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -121,6 +124,9 @@
     </ClInclude>
     <ClInclude Include="function\link.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class\class.hpp">
+      <Filter>头文件\class</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
