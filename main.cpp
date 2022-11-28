@@ -23,11 +23,15 @@
 #include "function/functionpointer.hpp"
 #include "link.hpp"
 #include "class/class.hpp"
+#include "class/friend.hpp"
 
 int main(int argc, char** argv)
 {
+	/* 友元函数 */
+	function_friend();
+
 	/* C++ 成员列表初始化 */
-	function_class();
+	//function_class();
 
 	/* 函数指针 */
 	//function_pointer();

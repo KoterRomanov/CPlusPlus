@@ -128,5 +128,8 @@
     <ClInclude Include="class\class.hpp">
       <Filter>头文件\class</Filter>
     </ClInclude>
+    <ClInclude Include="class\friend.hpp">
+      <Filter>头文件\class</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
