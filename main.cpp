@@ -22,13 +22,18 @@
 #include "vafunction.hpp"
 #include "function/functionpointer.hpp"
 #include "link.hpp"
+
 #include "class/class.hpp"
 #include "class/friend.hpp"
+#include "class/staticmember.hpp"
 
 int main(int argc, char** argv)
 {
+	/* 类静态成员 */
+	function_static_member();
+
 	/* 友元函数 */
-	function_friend();
+	//function_friend();
 
 	/* C++ 成员列表初始化 */
 	//function_class();
