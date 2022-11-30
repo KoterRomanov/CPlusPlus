@@ -26,11 +26,15 @@
 #include "class/class.hpp"
 #include "class/friend.hpp"
 #include "class/staticmember.hpp"
+#include "class/memeryclass.hpp"
 
 int main(int argc, char** argv)
 {
+	/* 类对象的内存分配 */
+	function_memery_class();
+
 	/* 类静态成员 */
-	function_static_member();
+	//function_static_member();
 
 	/* 友元函数 */
 	//function_friend();

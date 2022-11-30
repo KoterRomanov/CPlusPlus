@@ -159,6 +159,7 @@
     <ClInclude Include="callmethod.hpp" />
     <ClInclude Include="class\class.hpp" />
     <ClInclude Include="class\friend.hpp" />
+    <ClInclude Include="class\memeryclass.hpp" />
     <ClInclude Include="class\nestedclass.hpp" />
     <ClInclude Include="class\operator.hpp" />
     <ClInclude Include="class\staticmember.hpp" />

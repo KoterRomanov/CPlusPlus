@@ -140,5 +140,8 @@
     <ClInclude Include="class\staticmember.hpp">
       <Filter>头文件\class</Filter>
     </ClInclude>
+    <ClInclude Include="class\memeryclass.hpp">
+      <Filter>头文件\class</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
