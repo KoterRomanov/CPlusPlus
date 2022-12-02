@@ -28,10 +28,15 @@
 #include "class/staticmember.hpp"
 #include "class/memeryclass.hpp"
 
+#include "array/array.hpp"
+
 int main(int argc, char** argv)
 {
+	/* 数组 */
+	function_array();
+
 	/* 类对象的内存分配 */
-	function_memery_class();
+	//function_memery_class();
 
 	/* 类静态成员 */
 	//function_static_member();

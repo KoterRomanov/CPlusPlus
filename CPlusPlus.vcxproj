@@ -140,6 +140,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="array\array.hpp" />
     <ClInclude Include="basic\const.hpp" />
     <ClInclude Include="basic\constcast.hpp" />
     <ClInclude Include="basic\define.h" />

@@ -143,5 +143,8 @@
     <ClInclude Include="class\memeryclass.hpp">
       <Filter>头文件\class</Filter>
     </ClInclude>
+    <ClInclude Include="array\array.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
