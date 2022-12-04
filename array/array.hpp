@@ -20,6 +20,8 @@ void function_array()
 	cout << &A + 1 << endl;  /* +1 指向数组的下一个元素，这里指针是二维数组的首地址，因此跳一步会跳第二维数组总长度的距离。例如 int A[3][5]，跳一步会跳 sizeof(int) * 5 */
 
 	int B[3][5] = { 0 };
+	cout << typeid(B).name() << endl;
+	cout << typeid(&B).name() << endl;
 	cout << B << endl;
 	cout << B + 1 << endl;
 	cout << &B + 1 << endl;
