@@ -25,6 +25,9 @@
     <Filter Include="头文件\class">
       <UniqueIdentifier>{b199dbd9-edf0-483b-bd89-b7b837ff5479}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\array">
+      <UniqueIdentifier>{a1876133-5d81-4c92-b43d-db88c7befe42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -122,9 +125,6 @@
     <ClInclude Include="function\link.hpp">
       <Filter>头文件\function</Filter>
     </ClInclude>
-    <ClInclude Include="function\link.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="class\class.hpp">
       <Filter>头文件\class</Filter>
     </ClInclude>
@@ -143,8 +143,11 @@
     <ClInclude Include="class\memeryclass.hpp">
       <Filter>头文件\class</Filter>
     </ClInclude>
+    <ClInclude Include="function\link.h">
+      <Filter>头文件\function</Filter>
+    </ClInclude>
     <ClInclude Include="array\array.hpp">
-      <Filter>头文件</Filter>
+      <Filter>头文件\array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
