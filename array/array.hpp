@@ -4,6 +4,8 @@
 #include "define.h"
 #include <typeinfo>
 
+void function_array_pointer();
+
 void function_array()
 {
 	int A[4] = { 0 };
@@ -25,4 +27,22 @@ void function_array()
 	cout << B << endl;
 	cout << B + 1 << endl;
 	cout << &B + 1 << endl;
+
+	function_array_pointer();
+}
+
+void function_array_pointer()
+{
+	/*
+	 * 1. 数组名是指针常量, 不能改变数组名指向的数组
+	 */
+	int arr[100] = { 0, 1, 2, 3, 4 };
+	cout << typeid(arr).name() << endl;
+
+	/* 非法 */
+	//arr++;
+
+	/* 合法 */
+	int* p0 = arr + 1;
+	cout << (*p0) << endl;
 }
