@@ -31,6 +31,13 @@ void function_array()
 	function_array_pointer();
 }
 
+void show(int arr[100])
+{
+	/* 合法，因为 arr 被看做指针，指针可以自增偏移 */
+	arr++;
+	cout << (*arr) << endl;
+}
+
 void function_array_pointer()
 {
 	/*
@@ -45,4 +52,10 @@ void function_array_pointer()
 	/* 合法 */
 	int* p0 = arr + 1;
 	cout << (*p0) << endl;
+
+
+	/* 
+	 * 2. 形参中的数组被看做指针，而不是数组 
+	 */
+	show(arr);
 }
