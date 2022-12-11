@@ -38,6 +38,11 @@ void show(int arr[100])
 	cout << (*arr) << endl;
 }
 
+void show_reference(int(&arr)[100])
+{
+	assert(arr);
+}
+
 void function_array_pointer()
 {
 	/*
@@ -58,4 +63,11 @@ void function_array_pointer()
 	 * 2. 形参中的数组被看做指针，而不是数组 
 	 */
 	show(arr);
+
+	/*
+	 * 3. 形参是引用。 形参是对实参的引用，数组长度作为类型的一部分
+	 */
+	int new_arr[99] = { 0 };
+	//show_reference(new_arr); /* 错误：参数类型是 int (&)[100]，传入的 new_arr 的类型是 int(&)[99]，参数类型不一致 */
+	show_reference(arr);
 }
