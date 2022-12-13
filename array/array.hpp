@@ -29,6 +29,8 @@ void function_array()
 	cout << &B + 1 << endl;
 
 	function_array_pointer();
+
+	function_initialize();
 }
 
 void show(int arr[100])
@@ -70,4 +72,13 @@ void function_array_pointer()
 	int new_arr[99] = { 0 };
 	//show_reference(new_arr); /* 错误：参数类型是 int (&)[100]，传入的 new_arr 的类型是 int(&)[99]，参数类型不一致 */
 	show_reference(arr);
+}
+
+void function_initialize()
+{
+	/* 方式1：初始所有数据为 0 */
+	int arr[100] = {};
+
+	/* 方式2：初始化给定初始值 */
+	int arr[] = { 1, 2, 3 };
 }
