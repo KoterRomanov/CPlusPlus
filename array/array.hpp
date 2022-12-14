@@ -5,6 +5,7 @@
 #include <typeinfo>
 
 void function_array_pointer();
+void function_initialize();
 
 void function_array()
 {
@@ -80,5 +81,11 @@ void function_initialize()
 	int arr[100] = {};
 
 	/* 方式2：初始化给定初始值 */
-	int arr[] = { 1, 2, 3 };
+	int arr_2[] = { 1, 2, 3 };
+
+	/* 方式3：部分初始化 */
+	int arr_3[5] = { 1, 2, 3 };
+
+	/* 错误初始化 */
+	int arr_4[2] = { 1, 2, 3 };
 }
