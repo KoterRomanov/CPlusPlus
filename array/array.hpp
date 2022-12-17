@@ -87,5 +87,5 @@ void function_initialize()
 	int arr_3[5] = { 1, 2, 3 };
 
 	/* ´íÎó³õÊ¼»¯ */
-	int arr_4[2] = { 1, 2, 3 };
+	//int arr_4[2] = { 1, 2, 3 };
 }
