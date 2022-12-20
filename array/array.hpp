@@ -31,6 +31,7 @@ void function_array()
 
 	function_array_pointer();
 
+	/* 数组初始化练习 */
 	function_initialize();
 }
 
